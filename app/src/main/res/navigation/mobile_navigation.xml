@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.hackapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_store"
+        android:name="com.example.hackapp.StoreFragment"
+        android:label="@string/menu_store"
+        tools:layout="@layout/fragment_store" />
+
+    <fragment
+        android:id="@+id/menu_bucket"
+        android:name="com.example.hackapp.BucketFragment"
+        android:label="@string/menu_bucket"
+        tools:layout="@layout/fragment_bucket" />
+
+    <fragment
+        android:id="@+id/menu_personal"
+        android:name="com.example.hackapp.PersonalFragment"
+        android:label="@string/menu_personal"
+        tools:layout="@layout/fragment_bucket" />
+
+    <fragment
+        android:id="@+id/menu_chat"
+        android:name="com.example.hackapp.ChatFragment"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/menu_help_ai"
+        android:name="com.example.hackapp.HelpAIFragment"
+        android:label="@string/menu_help_ai"
+        tools:layout="@layout/fragment_help_ai" />
+
+    <fragment
+        android:id="@+id/menu_help"
+        android:name="com.example.hackapp.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/menu_chat"-->
+<!--        android:name="com.example.hackapp.HelpFragment"-->
+<!--        android:label="@string/menu_chat"-->
+<!--        tools:layout="@layout/fragment_help" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.example.hackapp.ui.gallery.GalleryFragment"-->
+<!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.example.hackapp.ui.slideshow.SlideshowFragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_calendar_sheep"-->
+<!--        android:name="com.example.hackapp.ui.slideshow.shee"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.hackapp.SignInFragment"
+        android:label="Авторизация"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.hackapp.SignUpFragment"
+        android:label="Регистрация"
+        tools:layout="@layout/fragment_sign_up" />
+
+    <fragment
+        android:id="@+id/nav_calendar_sheep"
+        android:name="com.example.hackapp.CalendarSheepFragment"
+        android:label="Calendar Sheep"
+        tools:layout="@layout/fragment_calendar_sheep" />
+</navigation>

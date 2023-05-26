@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:src="@drawable/logo_smaller" />
+
+    <TextView
+        android:id="@+id/h1_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VILL MIL"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/custom_border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Чеченская республика славится не только красотами природы, богатой культурой, историей и традициями, но и своей сельскохозяйственной продукцией, трудолюбивыми фермерами, которые выращивают на своих участках экологически чистую сельскохозяйственную продукцию. Доказательством этого является большой спрос на фермерские товары как у жителей республики, так и у гостей, которые её посещают. Специально для вас мы разработали цифровое решение для организации предзаказа фермерских продуктов."
+            android:textSize="16sp" />
+    </FrameLayout>
+</LinearLayout>

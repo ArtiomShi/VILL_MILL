@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_menu_store"
+            android:title="@string/menu_store" />
+        <item
+            android:id="@+id/menu_bucket"
+            android:icon="@drawable/ic_menu_store"
+            android:title="@string/menu_bucket" />
+        <item
+            android:id="@+id/menu_personal"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_personal" />
+
+        <item
+            android:id="@+id/menu_chat"
+            android:icon="@drawable/ic_menu_calendar_sheep"
+            android:title="@string/menu_chat" />
+
+        <item
+            android:id="@+id/menu_help_ai"
+            android:icon="@drawable/ic_menu_calendar_sheep"
+            android:title="@string/menu_help_ai" />
+
+        <item
+            android:id="@+id/menu_learn"
+            android:icon="@drawable/ic_menu_calendar_sheep"
+            android:title="@string/menu_learn" />
+
+        <item
+            android:id="@+id/menu_help"
+            android:icon="@drawable/ic_menu_calendar_sheep"
+            android:title="@string/menu_help" />
+    </group>
+</menu>

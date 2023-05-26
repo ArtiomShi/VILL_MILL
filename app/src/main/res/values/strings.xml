@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">hackapp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">PAPUS</string>
+    <string name="nav_header_subtitle">PAPUS.UPASi@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="action_sign_up">Зарегистрироваться</string>
+    <string name="action_add_tour">Добавить тур</string>
+    <string name="username_hint">Ваш логин</string>
+    <string name="password_hint">Ваш пароль</string>
+    <string name="sign_in_button_text">Войти</string>
+    <string-array name="status_array">
+        <item>фермер</item>
+        <item>пользователь</item>
+        <item>админ</item>
+    </string-array>
+
+
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_store">Магазин</string>
+    <string name="menu_bucket">Корзина</string>
+    <string name="menu_personal">Личный кабинет</string>
+    <string name="menu_chat">Чат</string>
+    <string name="menu_help_ai">ПомощьЧат</string>
+    <string name="menu_learn">Образовательные материалы</string>
+    <string name="menu_help">Поддержка</string>
+</resources>
